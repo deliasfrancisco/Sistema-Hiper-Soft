@@ -1,0 +1,12 @@
+br/com/fatecpp/hiper_soft/model/domain/ItemCompra_.java
+br/com/fatecpp/hiper_soft/model/domain/Compra_.java
+br/com/fatecpp/hiper_soft/model/domain/Venda_.java
+br/com/fatecpp/hiper_soft/model/domain/Cliente_.java
+br/com/fatecpp/hiper_soft/model/domain/TipoProduto_.java
+br/com/fatecpp/hiper_soft/model/domain/ItensVenda_.java
+br/com/fatecpp/hiper_soft/model/domain/Usuario_.java
+br/com/fatecpp/hiper_soft/model/domain/Caixa_.java
+br/com/fatecpp/hiper_soft/model/domain/Produto_.java
+br/com/fatecpp/hiper_soft/model/domain/UnidadeMedida_.java
+br/com/fatecpp/hiper_soft/model/domain/Fornecedor_.java
+br/com/fatecpp/hiper_soft/model/domain/TipoPagamento_.java

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence                                   http://xmlns.jcp.org/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="SistemaHiperSoftWebPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.hibernate.ejb.HibernatePersistence</provider>
+    <!--<non-jta-data-source>jdbc:mysql://localhost:3306/hiper_soft_database?zeroDateTimeBehavior=convertToNull</non-jta-data-source>-->
+    <class>br.com.fatecpp.hiper_soft.model.domain.Caixa</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.Cliente</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.Compra</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.Fornecedor</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.ItemCompra</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.ItensVenda</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.Produto</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.TipoPagamento</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.TipoProduto</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.UnidadeMedida</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.Usuario</class>
+    <class>br.com.fatecpp.hiper_soft.model.domain.Venda</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/hiper_soft_database?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+      <property name="hibernate.show_sql" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
